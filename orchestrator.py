@@ -24,8 +24,8 @@ def wait_for_processes(*processes):
 
 
 def main():
-    matrix_a = 'matrixD.txt'
-    matrix_b = 'matrixD.txt'
+    matrix_a = 'matrixA.txt'
+    matrix_b = 'matrixB.txt'
 
     proceso_mapper = run_mapper(matrix_a, matrix_b)
     proceso_sort = run_sort(proceso_mapper.stdout)
